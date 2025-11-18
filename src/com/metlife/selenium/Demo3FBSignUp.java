@@ -12,7 +12,14 @@ public class Demo3FBSignUp {
 
         driver.findElement(By.linkText("Create new account")).click();
         //firstname as john
+        driver.findElement(By.name("firstname")).sendKeys("john");
         //lastname as john123
+        driver.findElement(By.name("lastname")).sendKeys("welcome123");
         //click on custom radio button
+
+        //label[text()='Custom']
+        driver.findElement(By.xpath("//input[@value='-1']")).click();
+
     }
+
 }
