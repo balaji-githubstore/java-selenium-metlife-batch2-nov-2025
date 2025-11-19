@@ -13,3 +13,11 @@ Contains
 
 Example: verify in chrome --> ctrl+f
 //input[@value='-1']
+//div[text()='I have a Corporate Account']
+
+//img[contains(@src,'hide-password')]
+
+
+avoid classname
+//div[contains(@class,'coperate')]
+//div[contains(@class,'coperate')]
