@@ -11,12 +11,15 @@ Contains
 //tagname[contains(@attribute,'')]
 //tagname[contains(text(),'')]
 
+Grouping of xpath - starts at 1
+(//span[contains(text(),' Visit Our Support Center')])[2]
+
 Example: verify in chrome --> ctrl+f
 //input[@value='-1']
 //div[text()='I have a Corporate Account']
-
 //img[contains(@src,'hide-password')]
-
+//b[contains(text(),'phpMyAdmi')]
+ 
 
 avoid classname
 //div[contains(@class,'coperate')]
