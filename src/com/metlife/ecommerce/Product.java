@@ -40,12 +40,4 @@ public class Product {
         System.out.println(Product.applicationName);
         System.out.println("------------------");
     }
-
-    public void get(String url)
-    {
-        System.out.println("Use id "+id);
-        System.out.println(url);
-        System.out.println("---------------");
-    }
-
 }
