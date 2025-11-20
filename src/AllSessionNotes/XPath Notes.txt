@@ -17,7 +17,13 @@ Grouping of xpath - starts at 1
 ignore white space before and after text
 //a[normalize-space()='Change Volume']
 
+
+Upload 
+//input[@type='file']
+
 And - or 
+//tagname[@attribute='' and @attribute='']
+//input[@type='file' and @id='edit-field-audited-balance-sheet-for-0-upload']
 
 parent-child 
 
