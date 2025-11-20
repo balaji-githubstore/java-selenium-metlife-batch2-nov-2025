@@ -1,4 +1,4 @@
-package com.metlife.selenium;
+package com.metlife.seleniumassignment;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
