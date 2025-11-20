@@ -14,13 +14,23 @@ Contains
 Grouping of xpath - starts at 1
 (//span[contains(text(),' Visit Our Support Center')])[2]
 
+()
+
 Example: verify in chrome --> ctrl+f
 //input[@value='-1']
 //div[text()='I have a Corporate Account']
 //img[contains(@src,'hide-password')]
-//b[contains(text(),'phpMyAdmi')]
- 
+//b[contains(text(),'phpMyAdmi')] 
+//input[contains(@id,'UserFirstName')]
+
+
+
+//span[text()='Next']
 
 avoid classname
 //div[contains(@class,'coperate')]
 //div[contains(@class,'coperate')]
+
+---------------
+linkText/partialLinkText - Match font present UI - NEXT
+--------------
