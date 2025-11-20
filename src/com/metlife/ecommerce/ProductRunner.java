@@ -7,8 +7,8 @@ public class ProductRunner {
 
         //(101, watch, watch by titan, 3000)
         //(102,mobile,mobile by samsung,7000)
-        Product p1=new Product();
-        Product p2=new Product();
+        Product p1=new Product(1001);
+        Product p2=new Product(1002,"mobile");
 
         p1.id=101;
         p1.name="watch";
