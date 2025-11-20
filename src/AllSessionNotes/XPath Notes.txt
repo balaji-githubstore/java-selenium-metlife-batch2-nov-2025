@@ -14,7 +14,17 @@ Contains
 Grouping of xpath - starts at 1
 (//span[contains(text(),' Visit Our Support Center')])[2]
 
-()
+ignore white space before and after text
+//a[normalize-space()='Change Volume']
+
+And - or 
+
+parent-child 
+
+ancestor - descendant
+
+following - preceding 
+
 
 Example: verify in chrome --> ctrl+f
 //input[@value='-1']
@@ -23,7 +33,8 @@ Example: verify in chrome --> ctrl+f
 //b[contains(text(),'phpMyAdmi')] 
 //input[contains(@id,'UserFirstName')]
 
-
+//frame[@name='login_page']
+//frame[contains(@src,'RSNBLogin')]
 
 //span[text()='Next']
 
@@ -34,3 +45,29 @@ avoid classname
 ---------------
 linkText/partialLinkText - Match font present UI - NEXT
 --------------
+
+CSS Selector 
+#id
+.classname
+[attribute='']
+tagname[attribute='']
+
+Example: 
+#email
+button[name='login']
+
+input[name='dateDeparture']
+
+------------------------
+
+Click & type using javascript 
+document.querySelector("input[name='dateDeparture']").click()
+document.querySelector("input[name='dateDeparture']").value='06 Feb 2026'
+
+
+
+
+
+
+
+
