@@ -31,7 +31,6 @@ public class Demo15Javascript1 {
         //approach 2 - automate the calendar
 
         //approach 3 - option 1 - using javascript
-
         JavascriptExecutor js= (JavascriptExecutor) driver;
         js.executeScript("document.querySelector(\"input[name='dateDeparture']\").value='06 Feb 2026'");
         js.executeScript("document.querySelector(\"input[name='dateReturn']\").value='16 Feb 2026'");
