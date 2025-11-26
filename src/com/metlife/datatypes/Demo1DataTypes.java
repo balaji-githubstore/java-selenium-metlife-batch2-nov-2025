@@ -4,6 +4,9 @@ public class Demo1DataTypes {
 
     public static void main(String[] args) {
 
+        var az=10;
+        var name="";
+
         byte myValue=100; //myValue is registered for byte - 8 bits of memory used
 
         short b=100; //16 bits
