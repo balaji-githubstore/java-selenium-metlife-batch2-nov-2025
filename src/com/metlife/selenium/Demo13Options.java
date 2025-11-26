@@ -17,6 +17,9 @@ public class Demo13Options {
 
         Map<String, Object> prefs = new HashMap<String, Object>();
         prefs.put("download.default_directory", "D:\\balaji");
+
+
+
         options.setExperimentalOption("prefs", prefs);
 
         WebDriver driver=new ChromeDriver(options);

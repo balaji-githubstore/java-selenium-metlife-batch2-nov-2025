@@ -70,6 +70,58 @@ Click & type using javascript
 document.querySelector("input[name='dateDeparture']").click()
 document.querySelector("input[name='dateDeparture']").value='06 Feb 2026'
 
+--------------------------------
+
+saul, saul123,Invalid credentials
+peter,peter123,Invalid credentials
+
+
+
+
+---------------
+
+john,john123
+kim,kim123
+saul,saul123
+------------------
+
+Excel index		Object[][]
+0 0			
+0 1
+0 2
+
+1 0			0 0
+1 1			0 1
+1 2			0 2
+
+2 0			1 0
+2 1			1 1
+2 2			1 2
+
+
+
+
+
+{{"john","john123"},{"kim","kim123"},{"saul","saul123"}}
+
+
+--------------
+asMaps()
+
+
+
+[{firstName=john, middlename=w, lastname=wick},{firstName=john, middlename=w, lastname=wick}]
+
+
+
+
+
+
+
+
+
+
+b1-no-automation -- copy made from master branch at 16:35 IST
 
 
 

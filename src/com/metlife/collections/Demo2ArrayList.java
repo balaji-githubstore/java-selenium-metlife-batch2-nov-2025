@@ -1,18 +1,19 @@
 package com.metlife.collections;
 
 import java.util.ArrayList;
+import java.util.List;
 
 //extension of array
 //Generics - type safe collection
-public class Demo1ArrayList {
+public class Demo2ArrayList {
     public static void main(String[] args) {
 
-        ArrayList<Integer> numbers=new ArrayList<>();
-        numbers.add(10);
-        numbers.add(103);
+        List<String> numbers=new ArrayList<>();
+        numbers.add("red");
+        numbers.add("green");
 
 
-        System.out.println(numbers.get(0));
+        System.out.println(numbers.get(0).toUpperCase());
         System.out.println(numbers.size());
 
     }
